@@ -106,7 +106,7 @@ function init() {
   gltfLoader.load(
     // resource URL
     //TODO: vercelで読み込めない    
-    'public/models/toonyama.glb',
+    '/models/toonyama.glb',
     // called when the resource is loaded
     function (gltf) {
       loadedObject = gltf.scene;
